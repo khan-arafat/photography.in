@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #bbb, #fff);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 728.57px;
+    height: max-content;
+    margin: 0 auto;
+}
+.first-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px black;
+}
+.title-name{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    padding-top: 20vh;
+    height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.work {
+    width: 100px;
+    height: max-content;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: #bbb;
+    cursor: pointer;
+}
+.work:hover {
+    background-color: wheat;
+}
+.label-margin {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: slategray;
+    box-shadow: 2px 2px 4px black;
+}
+.dots{
+    margin: 0 10px;
+}
+.photos {
+    max-width: 728.57px;
+    height: 596.48px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px black;
+}
+.des-photo  {
+    max-width: 728.57px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 4px black;
+}
+.des-photo h4{
+    line-height: 0;
+}
+.des-photo p{
+    margin-top: -10px;
+}
+.contact-details {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
